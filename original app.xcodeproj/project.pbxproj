@@ -13,6 +13,7 @@
 		B066AEBD1AEE69E0006FB118 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B066AEBC1AEE69E0006FB118 /* Images.xcassets */; };
 		B066AEC01AEE69E0006FB118 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B066AEBE1AEE69E0006FB118 /* LaunchScreen.xib */; };
 		B066AECC1AEE69E0006FB118 /* original_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B066AECB1AEE69E0006FB118 /* original_appTests.swift */; };
+		B066AED61AEE6A30006FB118 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B066AED51AEE6A30006FB118 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B066AEC51AEE69E0006FB118 /* original appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "original appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B066AECA1AEE69E0006FB118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B066AECB1AEE69E0006FB118 /* original_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = original_appTests.swift; sourceTree = "<group>"; };
+		B066AED51AEE6A30006FB118 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B066AED61AEE6A30006FB118 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		B066AEA71AEE69E0006FB118 = {
 			isa = PBXGroup;
 			children = (
+				B066AED51AEE6A30006FB118 /* MapKit.framework */,
 				B066AEB21AEE69E0006FB118 /* original app */,
 				B066AEC81AEE69E0006FB118 /* original appTests */,
 				B066AEB11AEE69E0006FB118 /* Products */,
